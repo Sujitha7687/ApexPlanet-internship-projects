@@ -1,0 +1,15 @@
+Web Development Internship Project created under ApexPlanet.
+This project demonstrates the use of basic HTML, CSS, and JavaScript to design and style a simple interactive webpage.
+
+Features:
+
+Structured webpage with headings, paragraphs, images, and links (HTML)
+
+Custom styling with colors, fonts, and spacing (CSS)
+
+Interactive button with JavaScript alert functionality
+
+Tech Stack:
+🟠 HTML • 🔵 CSS • 🟢 JavaScript
+
+This project was developed as part of my learning and practical experience during the ApexPlanet Web Development Internship.
