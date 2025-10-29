@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #000;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav button {
+  background: none;
+  border: 2px solid #000;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav button.active,
+nav button:hover {
+  background: #000;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+section {
+  display: none;
+  width: 100%;
+  max-width: 800px;
+}
+
+section.active {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  padding: 2rem;
+  border: 2px solid #000;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.todo-container {
+  display: flex;
+  gap: 1rem;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 0.5rem;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+#addBtn {
+  padding: 0.5rem 1rem;
+  border: 2px solid #000;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#taskList {
+  margin-top: 1rem;
+  list-style: none;
+}
+
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+
+#taskList button {
+  border: none;
+  background: crimson;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+#contactForm input,
+#contactForm textarea {
+  padding: 0.6rem;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+#contactForm button {
+  background: #000;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}

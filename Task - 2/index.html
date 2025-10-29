@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ApexPlanet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ApexPlanet</h1>
+    <nav>
+      <button onclick="showSection('home')" class="active">Home</button>
+      <button onclick="showSection('about')">About</button>
+      <button onclick="showSection('todo')">To-Do</button>
+      <button onclick="showSection('contact')">Contact</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="active">
+      <div class="card">
+        <h2>Welcome to ApexPlanet</h2>
+        <p>Explore smart digital ideas and productivity tools that make your life better.</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="card">
+        <h2>About Us</h2>
+        <p>ApexPlanet is your one-stop platform for innovation, creativity, and learning. We help users stay organized and inspired.</p>
+      </div>
+    </section>
+
+    <section id="todo">
+      <div class="card">
+        <h2>My To-Do List</h2>
+        <div class="todo-container">
+          <input type="text" id="taskInput" placeholder="Enter a new task" />
+          <button id="addBtn">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="card">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
