@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Styling & JavaScript Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Advanced Styling & JavaScript Projects</h1>
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="responsive">Responsive Design</button>
+            <button class="tab-button" data-tab="quiz">Interactive Quiz</button>
+            <button class="tab-button" data-tab="api">API Data Fetcher</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Responsive Design Tab -->
+        <section id="responsive" class="tab-content active">
+            <div class="responsive-container">
+                <div class="hero">
+                    <h2>Responsive Design Demo</h2>
+                    <p>This layout adapts to different screen sizes</p>
+                </div>
+                
+                <!-- Image Carousel -->
+                <div class="carousel-container">
+                    <h3>Image Carousel</h3>
+                    <div class="carousel">
+                        <div class="carousel-images">
+                            <div class="carousel-slide active">
+                                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Mountain Landscape">
+                                <div class="slide-caption">Beautiful Mountain Landscape</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Forest">
+                                <div class="slide-caption">Peaceful Forest Scene</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" alt="Nature">
+                                <div class="slide-caption">Stunning Natural Beauty</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Lake">
+                                <div class="slide-caption">Serene Lake View</div>
+                            </div>
+                        </div>
+                        <button class="carousel-btn prev-btn">&#10094;</button>
+                        <button class="carousel-btn next-btn">&#10095;</button>
+                        <div class="carousel-indicators">
+                            <span class="indicator active" data-slide="0"></span>
+                            <span class="indicator" data-slide="1"></span>
+                            <span class="indicator" data-slide="2"></span>
+                            <span class="indicator" data-slide="3"></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <section class="features">
+                    <div class="feature-card">
+                        <h3>Feature 1</h3>
+                        <p>Content for feature one. Resize your browser to see the responsive layout in action.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Feature 2</h3>
+                        <p>Content for feature two. The layout changes based on screen width.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Feature 3</h3>
+                        <p>Content for feature three. Try viewing on mobile, tablet, and desktop.</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Interactive Quiz Tab -->
+        <section id="quiz" class="tab-content">
+            <div class="quiz-container">
+                <h2>JavaScript Quiz</h2>
+                <div id="quiz"></div>
+                <div id="results"></div>
+                <div class="quiz-buttons">
+                    <button id="submit">Submit Quiz</button>
+                    <button id="restart">Restart Quiz</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- API Data Fetcher Tab -->
+        <section id="api" class="tab-content">
+            <div class="api-container">
+                <h2>API Data Fetcher</h2>
+                <div class="controls">
+                    <button id="fetchJoke">Get Random Joke</button>
+                    <button id="fetchUser">Get Random User</button>
+                    <button id="fetchCatFact">Get Cat Fact</button>
+                </div>
+                <div id="loading" class="hidden">Loading...</div>
+                <div id="dataContainer"></div>
+                <div id="error" class="hidden error">Error fetching data. Please try again.</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Advanced Styling & JavaScript Projects</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
