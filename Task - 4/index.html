@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujitha Ravi | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <h2 class="logo">Sujitha</h2>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#todo-app">To-Do App</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Sujitha Ravi</h1>
+                <p>Web Developer passionate about creating efficient and user-friendly digital solutions.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Sujitha Ravi, a passionate web developer with expertise in front-end technologies. I enjoy creating responsive and interactive web applications that provide great user experiences.</p>
+                    <p>I have hands-on experience with modern web technologies and I'm constantly learning new skills to enhance my development capabilities.</p>
+                    <div class="skills">
+                        <span class="skill">HTML5</span>
+                        <span class="skill">CSS3</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Java</span>
+                        <span class="skill">Python</span>
+                        <span class="skill">SQL</span>
+                        <span class="skill">Responsive Design</span>
+                        <span class="skill">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-vote-yea"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Online Voting System using AI</h3>
+                        <p>A secure online voting platform with AI integration for fraud detection and verification.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">AI/ML</span>
+                            <span class="project-tag">Web Development</span>
+                        </div>
+                        <a href="https://github.com/Sujitha7687/online_voting_using_ai.git" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-car-crash"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Road Accidents in India Analysis</h3>
+                        <p>Data analysis project examining road accident patterns and trends across India.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Data Analysis</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Visualization</span>
+                        </div>
+                        <a href="https://github.com/Sujitha7687/Road-Accidents-in-India.git" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>ApexPlanet Internship Projects</h3>
+                        <p>Collection of projects completed during my internship at ApexPlanet.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Web Development</span>
+                            <span class="project-tag">HTML/CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Sujitha7687/ApexPlanet-internship-projects.git" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- To-Do App Section -->
+    <section id="todo-app">
+        <div class="container">
+            <h2>To-Do List App</h2>
+            <div class="todo-container">
+                <div class="todo-header">
+                    <h3>My Tasks</h3>
+                    <p>Organize your tasks and boost productivity</p>
+                </div>
+                <div class="todo-input">
+                    <input type="text" id="todoInput" placeholder="Add a new task...">
+                    <button id="addTodoBtn"><i class="fas fa-plus"></i></button>
+                </div>
+                <div class="todo-filters">
+                    <button class="filter-todo active" data-filter="all">All</button>
+                    <button class="filter-todo" data-filter="active">Active</button>
+                    <button class="filter-todo" data-filter="completed">Completed</button>
+                </div>
+                <ul class="todo-list" id="todoList">
+                    <!-- To-do items will be added here dynamically -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Listing Section -->
+    <section id="products">
+        <div class="container">
+            <h2>Product Listing</h2>
+            <div class="products-header">
+                <h3>Featured Products</h3>
+                <div class="product-controls">
+                    <select id="categoryFilter">
+                        <option value="all">All Categories</option>
+                        <option value="electronics">Electronics</option>
+                        <option value="clothing">Clothing</option>
+                        <option value="home">Home & Kitchen</option>
+                    </select>
+                    <select id="sortBy">
+                        <option value="default">Sort By</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="rating">Rating</option>
+                    </select>
+                </div>
+            </div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Product cards will be added here dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>sujitharavi975@gmail.com</p>JJJJ
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Chennai, India</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sujitha-ravi-7a2679267" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Sujitha7687" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3 class="footer-logo">Sujitha</h3>
+                    <p>Creating efficient and user-friendly digital solutions.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sujitha-ravi-7a2679267" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Sujitha7687" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div>
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Skills</h3>
+                        <ul>
+                            <li><a href="#">HTML5/CSS3</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">Java/Python</a></li>
+                            <li><a href="#">SQL</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Sujitha Ravi. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
