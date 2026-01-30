@@ -1,6 +1,6 @@
-**Task 2 – Dynamic To-Do List Using JavaScript
-Project Title
-Dynamic To-Do List Web Application
+****Task 2 – Dynamic To-Do List Using JavaScript**
+**Project Title**
+**Dynamic To-Do List Web Application**
 ******
 **Description**
 This project is a dynamic To-Do List web application developed using HTML, CSS, and JavaScript. The application allows users to add and remove tasks dynamically using JavaScript DOM manipulation. This project demonstrates how JavaScript can be used to create interactive and responsive web interfaces.
