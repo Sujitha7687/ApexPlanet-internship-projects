@@ -1,0 +1,55 @@
+**Task 4 – Full Project Implementation**
+**Project Title**
+**Personal Portfolio Websiten**
+******
+**Description**
+This project is a complete multi-page personal portfolio website developed using HTML, CSS, and JavaScript. The website showcases personal information, projects, and contact details in a professional and responsive layout. This project demonstrates the integration of HTML, CSS, and JavaScript to build a fully functional web project.
+**Objective**
+To design and develop a complete multi-page portfolio website that showcases skills, projects, and personal information in a professional manner.
+
+**Technologies Used**
+HTML5
+CSS3
+JavaScript
+Responsive Web Design
+
+**Features**
+Multi-page website structure
+About, Projects, and Contact sectio
+Fully responsive design
+Modern and clean UI layout
+Interactive elements using JavaScript
+Smooth navigation between sections
+
+**Project Structure**
+/task-4-todo-list
+│
+├── index.html
+├── style.css
+└── script.js
+
+**How It Works**
+The website contains multiple pages for different sections.
+HTML is used to structure the content.
+CSS is used to style and layout the website.
+JavaScript is used to add basic interactivity.
+The layout adapts to different screen sizes for responsive design.
+
+**Concepts Covered**
+DOM selection and manipulation
+Event listeners
+Creating and removing HTML elements using JavaScript
+Basic UI interaction
+JavaScript functions
+
+**Output**
+A fully functional dynamic to-do list that allows users to manage tasks by adding and deleting them easily.
+
+**Internship Task Reference**
+This project is developed as part of Task 2 of the
+ApexPlanet Software Pvt. Ltd. – Web Development Internship Program (45 Days)
+Topic: Develop a Dynamic To-Do List Using JavaScript
+
+**Demo Video (LinkedIn)**
+https://www.linkedin.com/posts/sujitha-ravi-7a2679267_html-css-javascript-activity-7395401965138128896-3980?utm_source=share&utm_medium=member_android&rcm=ACoAAEFqsCoBOETF8zAEoMeQRH6piyzQOtXtwfA
+
