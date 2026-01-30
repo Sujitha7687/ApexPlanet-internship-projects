@@ -1,4 +1,4 @@
-****Task 2 – Dynamic To-Do List Using JavaScript**
+**Task 2 – Dynamic To-Do List Using JavaScript**
 **Project Title**
 **Dynamic To-Do List Web Application**
 ******
