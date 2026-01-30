@@ -1,0 +1,53 @@
+**Task 3 – Fetch Data from an API Using JavaScript**
+**Project Title**
+API Data Fetching Web Application
+
+**Description**
+This project is a web application developed using HTML, CSS, and JavaScript that fetches real-time data from a public API and displays it dynamically on the webpage. This project demonstrates how to work with external APIs and handle asynchronous data using JavaScript.
+
+**Objective**
+To learn and apply API integration concepts in JavaScript by fetching and displaying real-time data from a public API.
+
+**Technologies Used**
+HTML5
+CSS3
+JavaScript
+Fetch API (for API integration)
+
+**Features**
+Fetch real-time data from a public API
+Display API data dynamically on the webpage
+Handle asynchronous operations using JavaScript
+User-friendly interface
+Responsive design
+
+**Project Structure**
+/task-3-api-fetch
+│
+├── index.html
+├── style.css
+└── script.js
+
+**How It Works**
+The application sends a request to a public API using the Fetch API.
+JavaScript receives the response and converts it into JSON format.
+The fetched data is processed and displayed dynamically on the webpage.
+The UI updates automatically when new data is fetched.
+
+**Concepts Covered**
+Fetch API
+Working with JSON data
+Asynchronous JavaScript (Promises)
+API integration
+DOM manipulation
+
+**Output**
+A dynamic web application that displays real-time data fetched from an external API.
+
+**Internship Task Reference**
+This project is developed as part of Task 3 of the
+ApexPlanet Software Pvt. Ltd. – Web Development Internship Program (45 Days)
+Topic: Fetch Data from an API Using JavaScript
+
+**Demo Video (LinkedIn)**
+https://www.linkedin.com/posts/sujitha-ravi-7a2679267_webdevelopment-javascript-css-activity-7393169995104440320-K9gz?utm_source=share&utm_medium=member_android&rcm=ACoAAEFqsCoBOETF8zAEoMeQRH6piyzQOtXtwfA
