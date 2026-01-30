@@ -1,53 +1,45 @@
-**Task 2 – Dynamic To-Do List Using JavaScript**
-**Project Title**
-**Dynamic To-Do List Web Application**
-******
-**Description**
-This project is a dynamic To-Do List web application developed using HTML, CSS, and JavaScript. The application allows users to add and remove tasks dynamically using JavaScript DOM manipulation. This project demonstrates how JavaScript can be used to create interactive and responsive web interfaces.
 
-**Objective**
-To learn and apply DOM manipulation concepts in JavaScript by building a functional and interactive to-do list application.
+# ApexPlanet Web Development Internship - Summary
 
-**Technologies Used**
-HTML5
-CSS
-JavaScript (DOM Manipulation)
+## Overview
 
-**Features**
-Add new tasks dynamically
-Remove tasks from the list
-Real-time UI updates without page reload
-Simple and user-friendly interface
-Responsive design
+During my **web development internship at ApexPlanet**, I gained hands-on experience in front-end and back-end development, enhancing my skills in creating dynamic and responsive web applications. The internship allowed me to work on real-world projects, collaborate with a team, and understand the full web development lifecycle.
 
-**Project Structure**
-/task-2-todo-list
-│
-├── index.html
-├── style.css
-└── script.js
+## Duration
 
-**How It Works**
-Users enter a task in the input field.
-When the Add Task button is clicked, JavaScript creates a new list item using DOM methods
-Each task includes a delete button to remove the task dynamically.
-All updates happen instantly without refreshing the page.
+**Internship Period:** [Insert Start Date] – [Insert End Date]
+**Mode:** [Online/Offline]
 
-**Concepts Covered**
-DOM selection and manipulation
-Event listeners
-Creating and removing HTML elements using JavaScript
-Basic UI interaction
-JavaScript functions
+## Skills Learned
 
-**Output**
-A fully functional dynamic to-do list that allows users to manage tasks by adding and deleting them easily.
+* HTML, CSS, JavaScript for creating responsive user interfaces
+* Front-end frameworks/libraries (e.g., Bootstrap, jQuery)
+* Back-end development basics (e.g., PHP, Node.js, or Python Flask/Django depending on your work)
+* Working with databases (MySQL, Firebase)
+* Version control using Git and GitHub
+* Problem-solving and debugging in real-time projects
 
-**Internship Task Reference**
-This project is developed as part of Task 2 of the
-ApexPlanet Software Pvt. Ltd. – Web Development Internship Program (45 Days)
-Topic: Develop a Dynamic To-Do List Using JavaScript
+## Projects & Tasks
 
-**Demo Video (LinkedIn)**
-https://www.linkedin.com/posts/sujitha-ravi-7a2679267_webdevelopment-javascript-html-activity-7389162573151039488-E9o2
+During the internship, I contributed to multiple tasks and projects, including:
+
+1. **Website Design & Development** – Creating responsive web pages for client projects.
+2. **Interactive Features** – Implementing dynamic forms, sliders, and navigation menus using JavaScript.
+3. **Database Integration** – Connecting front-end interfaces with back-end databases for user data management.
+4. **Testing & Debugging** – Identifying and resolving code issues to ensure smooth functionality.
+5. **Collaborative Project Work** – Participating in team discussions and implementing feedback for project improvements.
+
+## Outcome
+
+* Developed practical skills in full-stack web development.
+* Gained confidence in building functional and user-friendly websites.
+* Enhanced teamwork and communication skills in a professional setting.
+
+## Tools & Technologies
+
+* **Front-end:** HTML, CSS, JavaScript, Bootstrap
+* **Back-end:** PHP / Python (specify if used)
+* **Database:** MySQL / Firebase (specify if used)
+* **Others:** GitHub, VS Code, Chrome DevTools
+
 
